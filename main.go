@@ -30,6 +30,13 @@ func main() {
 		return
 	}
 
-	fmt.Print(playlist)
+	for _, track := range playlist.Tracks.Tracks {
+		fmt.Println("")
+		for _, artists := range track.Track.Artists {
+			fmt.Println(artists.Name)
+		}
+		fmt.Println(track.Track.Duration)
+		fmt.Println(track.Track.Name)
+	}
 
 }
