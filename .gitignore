@@ -1,18 +1,29 @@
-# Binaries for programs and plugins
-*.exe
-*.exe~
-*.dll
-*.so
-*.dylib
+# OS Files
+.DS_Store
+Thumbs.db
 
-# Test binary, built with `go test -c`
-*.test
+# Dependencies
+node_modules/
+package-lock.json
 
-# Output of the go coverage tool, specifically when used with LiteIDE
-*.out
+# Dev/Build Artifacts
+/dist/
+coverage/
+jsconfig.json
 
-# Dependency directories (remove the comment below to include it)
-# vendor/
+# Log Files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# env variable file
-.profile
+# Unconfigured Editors
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+/scripts/accesstoken/accounts.json
