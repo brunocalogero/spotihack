@@ -1,0 +1,9 @@
+{
+  "name": "spotihack",
+  "version": "1.0.0",
+  "description": "go and vuejs project",
+  "main": "index.js",
+  "repository": "git@github.com:brunocalogero/spotihack.git",
+  "author": "Bruno Calogero <brunocalogero@hotmail.com>",
+  "license": "MIT"
+}
